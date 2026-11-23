@@ -1,0 +1,8 @@
+# Arquivos binarios: o git nao deve mexer nas quebras de linha
+*.pdf  binary
+*.asta binary
+*.jar  binary
+*.png  binary
+# Scripts de shell precisam de LF tambem no Windows
+mvnw   text eol=lf
+*.sh   text eol=lf
